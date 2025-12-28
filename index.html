@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>$SHRIMPS - The Shrimp Army</title>
+		<link rel="icon" type="image/png" href="favicon.png" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<!-- Hero Section -->
+		<section class="hero">
+			<div class="hero-content">
+				<h1 class="hero-title">
+					<span class="title-main">$SHRIMPS</span>
+					<span class="title-subtitle">THE SHRIMP ARMY</span>
+				</h1>
+				<p class="hero-tagline">
+					We're not small. We're not weak. We're a swarm. We're a
+					tide.
+				</p>
+				<div class="contract-address">
+					<code id="contract-address"
+						>2TAi8XLzDJ8btNTQp7WtCvhGuMnWzkFddr1PhYf6pump</code
+					>
+					<button
+						class="copy-btn"
+						id="copy-btn"
+						aria-label="Copy contract address"
+					>
+						<svg
+							width="20"
+							height="20"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+						>
+							<rect
+								x="9"
+								y="9"
+								width="13"
+								height="13"
+								rx="2"
+								ry="2"
+							></rect>
+							<path
+								d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+							></path>
+						</svg>
+						<span>Copy</span>
+					</button>
+				</div>
+				<div class="hero-cta">
+					<button class="btn-primary" id="buy-btn">
+						Join The Swarm
+					</button>
+				</div>
+			</div>
+			<div class="hero-visual">
+				<div class="shrimp-animation shrimp-1">🦐</div>
+				<div class="shrimp-animation shrimp-2">🦐</div>
+				<div class="shrimp-animation shrimp-3">🦐</div>
+				<div class="shrimp-animation shrimp-4">🦐</div>
+				<div class="bubble bubble-1"></div>
+				<div class="bubble bubble-2"></div>
+				<div class="bubble bubble-3"></div>
+				<div class="bubble bubble-4"></div>
+				<div class="bubble bubble-5"></div>
+				<div class="bubble bubble-6"></div>
+			</div>
+		</section>
+
+		<!-- Lore Section -->
+		<section class="lore">
+			<div class="container">
+				<h2 class="section-title">The Narrative</h2>
+				<div class="lore-content">
+					<div class="lore-text">
+						<p class="lore-intro">
+							Why is White Whale sitting at 29M when the real
+							market movers are the shrimps and they are treated
+							like they don't matter?
+						</p>
+						<p>
+							We're <strong>DONE</strong> being called "shrimps."
+						</p>
+						<p>
+							We're done with the narrative that we're powerless,
+							that we're just liquidity for whales, that we get
+							dragged around by "institutions" and "smart money."
+						</p>
+						<p>
+							Have you <strong>SEEN</strong> what happens when
+							shrimps move together? So why not flip the script?
+						</p>
+						<p>
+							This is $SHRIMPS—a memecoin where the entire
+							community is built on
+							<strong>numbers > size</strong>.
+						</p>
+						<p>
+							Where we show them that
+							<strong>10,000 shrimps moving in sync</strong> has
+							more force than any whale ever could.
+						</p>
+						<p class="lore-highlight">
+							This is the real narrative:
+							<strong
+								>SHRIMPS OUTNUMBER WHALES AND WE MOVE
+								MARKETS.</strong
+							>
+						</p>
+						<p>
+							We're not small. We're not weak. We're a swarm.
+							We're a tide.
+						</p>
+						<p>
+							You wanna talk "powerful"?<br />
+							Watch what happens when shrimps decide to
+							coordinate.
+						</p>
+						<p class="lore-final">
+							<strong
+								>The Shrimp Army is going to fuck all the
+								whales.</strong
+							>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Meme Gallery Section -->
+		<section class="meme-gallery">
+			<div class="container">
+				<h2 class="section-title">The Swarm</h2>
+				<div class="gallery-grid" id="meme-gallery">
+					<!-- Memes will be populated by JS -->
+				</div>
+			</div>
+		</section>
+
+		<!-- Socials Section -->
+		<section class="socials">
+			<div class="container">
+				<h2 class="section-title">Join The Swarm</h2>
+				<div class="social-links" id="social-links">
+					<!-- Social links will be populated by JS -->
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-content">
+					<p class="footer-text">
+						<strong>$SHRIMPS</strong> - The Shrimp Army
+					</p>
+					<p class="footer-warning">
+						⚠️ This is a memecoin. DYOR. Not financial advice.
+						Shrimps move together.
+					</p>
+					<p class="footer-ca">
+						CA:
+						<code
+							>2TAi8XLzDJ8btNTQp7WtCvhGuMnWzkFddr1PhYf6pump</code
+						>
+					</p>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Image Viewer Modal -->
+		<div class="image-viewer" id="image-viewer">
+			<div class="image-viewer-overlay"></div>
+			<div class="image-viewer-content">
+				<button
+					class="image-viewer-close"
+					id="image-viewer-close"
+					aria-label="Close"
+				>
+					<svg
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+					>
+						<line x1="18" y1="6" x2="6" y2="18"></line>
+						<line x1="6" y1="6" x2="18" y2="18"></line>
+					</svg>
+				</button>
+				<img id="viewer-image" src="" alt="Shrimp Army Meme" />
+			</div>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
