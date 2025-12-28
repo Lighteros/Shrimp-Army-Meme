@@ -1,21 +1,21 @@
 // Contract Address
-const CONTRACT_ADDRESS = "2TAi8XLzDJ8btNTQp7WtCvhGuMnWzkFddr1PhYf6pump";
+const CONTRACT_ADDRESS = "0x00000000000000000000000000000000000000";
 
 // Social links
 const SOCIAL_LINKS = [
 	{
-		name: "X Community",
-		url: "https://x.com/i/communities/2005071981583241680",
+		name: "X",
+		url: "https://x.com/ShrimpArmy_erc",
 		iconPath: "x.svg"
 	},
 	{
 		name: "View Chart",
-		url: "https://dexscreener.com/solana/5G2rNUuPEp5Fec1JM8vAu6HcDE596NPpwej9kBCbCjTG",
+		url: "https://dexscreener.com/base/0x00000000000000000000000000000000000000",
 		iconPath: "dexscreener.svg"
 	},
 	{
 		name: "Buy Now",
-		url: "https://pump.fun/coin/2TAi8XLzDJ8btNTQp7WtCvhGuMnWzkFddr1PhYf6pump",
+		url: "https://app.uniswap.org/swap?chain=base&inputCurrency=NATIVE&outputCurrency=0x00000000000000000000000000000000000000",
 		iconPath: "pill.svg"
 	}
 ];
