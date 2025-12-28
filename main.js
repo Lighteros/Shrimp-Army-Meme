@@ -10,12 +10,12 @@ const SOCIAL_LINKS = [
 	},
 	{
 		name: "View Chart",
-		url: "https://dexscreener.com/base/0x5E5Ca4eEF905cDE3C871A1f31e825eF159356Fad",
+		url: "https://dexscreener.com/ethereum/0x00000000000000000000000000000000000000",
 		iconPath: "dexscreener.svg"
 	},
 	{
 		name: "Buy Now",
-		url: "https://app.uniswap.org/swap?chain=base&inputCurrency=NATIVE&outputCurrency=0x5E5Ca4eEF905cDE3C871A1f31e825eF159356Fad",
+		url: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000",
 		iconPath: "pill.svg"
 	}
 ];
